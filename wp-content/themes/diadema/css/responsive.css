@@ -1,0 +1,439 @@
+@media (min-width: 1921px) {
+    .mounting-middle {
+        width: 1060px;
+        height: 1060px;
+        right: -400px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1210px;
+    }
+}
+
+@media (max-width: 1800px) {
+    .mounting-middle {
+        width: 44vw;
+        height: 44vw;
+        top: 4vw;
+        right: -15vw;
+    }
+
+
+}
+
+@media (max-width: 1680px) {
+    .section-recall.right-recall::before {
+        left: 1%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .section-about {
+        background: #ffe347;
+    }
+
+    .know-block {
+        padding: 34px 32px;
+        background: none;
+        border: 2px dashed #000;
+        border-radius: 10px;
+    }
+
+    .section-services::before {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1400px) {
+    .owl-carousel .owl-nav button.owl-next {
+        right: 1em;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev {
+        left: 1em;
+    }
+
+    .slide-text h2 {
+        font-size: 4.55vw;
+        line-height: normal;
+    }
+
+    .slide-text h3 {
+        font-size: 3vw;
+        line-height: normal;
+    }
+
+    .slide-text p {
+        font-size: 1.72vw;
+        line-height: normal;
+    }
+
+    .slider {
+        height: calc(100vh - 147px);
+    }
+
+    .slide-text h4 {
+        font-size: 3vw;
+        line-height: normal;
+    }
+
+    .slide-text h3 {
+        font-size: 2.87vw;
+        line-height: normal;
+    }
+
+    .slide-text h5 {
+        font-size: 1.73vw;
+        line-height: normal;
+    }
+
+    .btn-slide {
+        font-size: 3.15vw;
+        line-height: normal;
+    }
+
+    .mounting-middle {
+        width: 40vw;
+        height: 40vw;
+        top: 7vw;
+        right: -13vw;
+    }
+
+    .know-block-dog {
+        padding: 52px 10px 54px 67px;
+        background-size: 94%;
+    }
+
+
+}
+
+@media (max-width: 1260px) {
+    .section-recall.right-recall::before {
+        left: 0;
+        border-radius: 0;
+    }
+
+    .order-grid {
+        justify-content: center;
+    }
+
+    .order-item {
+        display: flex;
+    }
+
+    .order-item .order-arr {
+        position: relative;
+        left: 0;
+    }
+}
+
+@media (max-width: 1199px) {
+    .mounting-middle {
+        display: none;
+    }
+
+    .mounting-top .title {
+        font-size: 5vw;
+        line-height: normal;
+    }
+
+    .section-recall::before {
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .know-block-dog {
+        padding: 50px 0;
+        background: rgba(255, 255, 255, .8);
+    }
+
+    .section-services {
+        background: url(../images/services-bg.png) no-repeat right -98px bottom 16px;
+        background-size: 62%;
+    }
+
+    .price-title {
+        font-size: 2.5vw;
+        line-height: normal;
+    }
+
+    .price-grid .col-12 {
+        margin-bottom: 30px;
+    }
+
+    .btn-zapchast {
+        margin-bottom: 50px;
+    }
+
+    .section-about p {
+        padding-right: 0;
+    }
+
+    .podpis {
+        top: 68%;
+        left: 21%;
+    }
+}
+
+@media (max-width: 991px) {
+
+    header .row .col-12:nth-child(1) {
+        order: 1;
+    }
+
+    header .row .col-12:nth-child(2) {
+        order: 3;
+    }
+
+    header .row .col-12:nth-child(3) {
+        order: 4;
+    }
+
+    header .row .col-12:nth-child(4) {
+        order: 2;
+    }
+
+    .popover-custom {
+        display: none;
+    }
+
+    header {
+        height: auto;
+        padding: 5px 0 10px;
+    }
+
+    .address {
+        justify-content: flex-start;
+    }
+
+    .mounting-title {
+        font-size: 2.5vw;
+        line-height: normal;
+        margin-top: 15px;
+    }
+
+    .section-recall {
+        height: auto;
+    }
+
+    .form-recall .title, .section-recall.right-recall .title {
+        font-size: 4.55vw;
+        line-height: normal;
+        margin-bottom: 15px;
+    }
+
+    .object-title {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .modal .form-static {
+        border-radius: 20px;
+        background: #191b29;
+        padding: 50px 20px 20px;
+    }
+
+    .modal-header .close {
+        top: 5px;
+        right: 5px;
+    }
+
+    .form-modal-header.modal-header .close {
+        top: 10px;
+        right: 10px;
+    }
+
+    .form .title {
+        font-size: 30px;
+        line-height: normal;
+        margin-bottom: 30px;
+    }
+
+    .card, .card-block {
+        margin-bottom: 20px;
+    }
+
+    .card-block .card {
+        margin-bottom: 0;
+    }
+
+    .mounting-bottom .card-block .card-img-top,
+    .mounting-bottom .card-block:last-child .card-img-top {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .section-podgotovka .card-text {
+        height: auto;
+    }
+
+    .section-podgotovka .card-img-top {
+        background-position: center top;
+    }
+
+    .slider {
+        height: calc(100vh - 195px);
+    }
+}
+
+@media (max-width: 767px) {
+    .section-work .title, .section-action .title, .section-order .title, .section-podgotovka h2, .section-about h3 {
+        font-size: 6.15vw;
+        line-height: normal;
+    }
+
+    .work-item h3 {
+        line-height: normal;
+    }
+
+    .mounting-title {
+        font-size: 22px;
+    }
+
+    .price-title {
+        font-size: 22px;
+    }
+
+    .soc-footer, .made-by {
+        height: auto;
+        padding: 30px 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    footer {
+        padding-bottom: 30px;
+    }
+
+    .order-item {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .order-item .order-arr {
+        transform: rotate(90deg);
+    }
+
+}
+
+@media (max-width: 575px) {
+
+    header .row .col-12 {
+        text-align: center;
+    }
+
+    .btn-order {
+        margin: 25px auto 10px;
+    }
+
+    .address {
+        justify-content: center;
+    }
+
+    .phones {
+        justify-content: center;
+        padding: 20px 0 10px;
+        flex-direction: column;
+    }
+
+    .mask-slider {
+        display: none;
+    }
+
+    .slide-text {
+        margin-left: 0;
+        padding: 0 12%;
+    }
+
+    .section-work .title, .section-action .title, .section-order .title, .section-podgotovka h2, .section-about h3 {
+        font-size: 32px;
+    }
+
+    .work-item h3 {
+        font-size: 26px;
+    }
+
+    .work-item {
+        flex-wrap: wrap;
+    }
+
+    .work-img {
+        margin: 0 auto 10px;
+    }
+
+    .work-text {
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .mounting-title {
+        font-size: 25px;
+    }
+
+    .form-recall .title, .section-recall.right-recall .title {
+        font-size: 30px;
+    }
+
+    .sertificat-block {
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sertificat-block a + a {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+
+    .btn-zapchast {
+        height: auto;
+    }
+
+    .section-price h2 {
+        font-size: 38px;
+        line-height: normal;
+    }
+
+    .slide-text h2 {
+        font-size: 26px;
+    }
+
+    .slide-text h3 {
+        font-size: 16px;
+    }
+
+    .slide-text p {
+        font-size: 10px;
+    }
+
+    .btn-slide {
+        font-size: 20px;
+        height: auto;
+        padding: 5px;
+        margin: 0 0 5px;
+    }
+
+    .slide-text h5 {
+        font-size: 10px;
+    }
+
+    .podpis {
+        left: calc(50% - 57px);
+    }
+
+    .logo i {
+        text-align: center;
+        padding: 25px 0 0 0;
+    }
+
+    .slider {
+        height: 67vw;
+    }
+}
