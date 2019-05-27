@@ -219,7 +219,7 @@ get_header();
         </div>
         
         <?php $content_block_e = get_field('block_e_main_page'); ?>
-        <div class="section-order" style="background-image: url('<?php echo $content_block_e['image_a_block_e_main_page']['url']; ?>')">
+        <div class="section-order" style="background-image: url('<?php echo $content_block_e['image_main_block_e_main_page']['url']; ?>')">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
